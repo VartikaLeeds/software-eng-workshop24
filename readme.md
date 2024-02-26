@@ -4,7 +4,7 @@
 
 -Vartika Rungta
 -Ellen Bartle
--Connor Nolan
+-Connor Nolan (check if wants to work)
 
 ##Project description
 
