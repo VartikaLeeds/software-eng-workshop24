@@ -1,3 +1,4 @@
 - black 
 - python
 - pytest
+- numpy
