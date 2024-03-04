@@ -1,4 +1,4 @@
-import numpy as numpy
+import numpy as np
 import cmath
 import pytest
 import functions.hp_calc.py as hc
@@ -6,7 +6,6 @@ import functions.hp_calc.py as hc
 
 def hyp1():
     assert hc.hyp(-3, -4) > 0, "two negative should return a positive"
-
 
 def hyp2():
     assert hc.hyp(3, -9) > 0, "one +ve an done -ve returns a positive"
