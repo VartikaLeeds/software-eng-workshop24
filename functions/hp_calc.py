@@ -2,4 +2,7 @@ import numpy as np
 
 
 def hyp(a, b):
-    return np.sqrt((a**2) + (b**2))
+    sqa=a**2
+    sqb=b**2
+    return (sqa+sqb)**0.5
+
