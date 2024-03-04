@@ -1,7 +1,7 @@
 import functions.calc as fc
 
 def test_negatives():
-    assert adivb(-10,-5) == 2, "two negatives return a postive"
+    assert fc.adivb(-10,-5) == 2, "two negatives return a postive"
     #assert adivb(-9,3) <0, "one +ve, 1 -ve reurns -ve"
     #assert adivb(35,7)>0, "2 positives should be positive"
     #assert isinstance(adivb(5,10), float), "minor by larger should be float"
